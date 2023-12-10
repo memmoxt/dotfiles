@@ -1,0 +1,1 @@
+/home/memmoxt/.config/neofetch/arktype.txt
