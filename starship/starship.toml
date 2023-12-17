@@ -1,1 +1,95 @@
-/home/memmoxt/.config/starship.toml
+[aws]
+style = "bold #ffb86c"
+
+[character]
+error_symbol = "[  󰘍](bold #ff5555)"
+success_symbol = "[  󰘍](bold #89ca78)"
+
+[cmd_duration]
+style = "bold #f1fa8c"
+
+[directory]
+style = "bold #89ca78"
+
+[git_branch]
+symbol = ""
+style = "bold #ff79c6"
+
+[git_status]
+style = "bold #ff5555"
+format = '[$all_status$ahead_behind ]($style)'
+
+[hostname]
+style = "bold #bd93f9"
+
+[username]
+show_always = true
+format = """
+[   ](fg:#89ca78)\
+[MemmoXT ]($style)\
+"""
+style_user = "bold #61afef"
+
+# icons 󰘍   
+
+[c]
+symbol = " "
+style = "fg:#ffffff bg:#5c6370"
+format = '[ $symbol ($version) ]($style)'
+
+[docker_context]
+symbol = " "
+style = "fg:#ffffff bg:#5c6370"
+format = '[ $symbol $context ]($style) $path'
+
+[elixir]
+symbol = " "
+style = "fg:#ffffff bg:#5c6370"
+format = '[ $symbol ($version) ]($style)'
+
+[elm]
+symbol = " "
+style = "fg:#ffffff bg:#5c6370"
+format = '[ $symbol ($version) ]($style)'
+
+[golang]
+symbol = " "
+style = "fg:#ffffff bg:#5c6370"
+format = '[ $symbol ($version) ]($style)'
+
+[haskell]
+symbol = " "
+style = "fg:#ffffff bg:#5c6370"
+format = '[ $symbol ($version) ]($style)'
+
+[java]
+symbol = " "
+style = "fg:#ffffff bg:#5c6370"
+format = '[ $symbol ($version) ]($style)'
+
+[julia]
+symbol = " "
+style = "fg:#ffffff bg:#5c6370"
+format = '[ $symbol ($version) ]($style)'
+
+[nodejs]
+symbol = ""
+style = "fg:#ffffff bg:#5c6370"
+format = '[ $symbol ($version) ]($style)'
+
+[nim]
+symbol = " "
+style = "fg:#ffffff bg:#5c6370"
+format = '[ $symbol ($version) ]($style)'
+
+[python]
+symbol = ""
+style = "fg:#ffffff bg:#5c6370"
+format = '[ $symbol ($version) ]($style)'
+
+[rust]
+symbol = ""
+style = "fg:#ffffff bg:#5c6370"
+format = '[ $symbol ($version) ]($style)'
+
+
