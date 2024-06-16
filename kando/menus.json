@@ -1,0 +1,57 @@
+{
+  "menus": [
+    {
+      "root": {
+        "type": "submenu",
+        "name": "main",
+        "icon": "archlinux",
+        "iconTheme": "simple-icons",
+        "children": [
+          {
+            "type": "submenu",
+            "data": {},
+            "name": "Submenu",
+            "icon": "filter_none",
+            "iconTheme": "material-symbols-rounded",
+            "children": [
+              {
+                "type": "hotkey",
+                "data": {
+                  "hotkey": "ControlLeft+KeyV",
+                  "delayed": false
+                },
+                "name": "Paste",
+                "icon": "content_paste",
+                "iconTheme": "material-symbols-rounded"
+              },
+              {
+                "type": "hotkey",
+                "data": {
+                  "hotkey": "ControlLeft+KeyX",
+                  "delayed": false
+                },
+                "name": "Cut",
+                "icon": "content_cut",
+                "iconTheme": "material-symbols-rounded"
+              },
+              {
+                "type": "hotkey",
+                "data": {
+                  "hotkey": "ControlLeft+KeyC",
+                  "delayed": false
+                },
+                "name": "Copy",
+                "icon": "content_copy",
+                "iconTheme": "material-symbols-rounded"
+              }
+            ]
+          }
+        ]
+      },
+      "shortcut": "",
+      "shortcutID": "kando-main",
+      "centered": false
+    }
+  ],
+  "stash": []
+}
