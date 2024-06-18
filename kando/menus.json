@@ -10,7 +10,7 @@
           {
             "type": "submenu",
             "data": {},
-            "name": "Submenu",
+            "name": "Copy & Paste",
             "icon": "filter_none",
             "iconTheme": "material-symbols-rounded",
             "children": [
@@ -22,7 +22,8 @@
                 },
                 "name": "Paste",
                 "icon": "content_paste",
-                "iconTheme": "material-symbols-rounded"
+                "iconTheme": "material-symbols-rounded",
+                "angle": 0
               },
               {
                 "type": "hotkey",
@@ -32,7 +33,8 @@
                 },
                 "name": "Cut",
                 "icon": "content_cut",
-                "iconTheme": "material-symbols-rounded"
+                "iconTheme": "material-symbols-rounded",
+                "angle": 90
               },
               {
                 "type": "hotkey",
@@ -42,9 +44,26 @@
                 },
                 "name": "Copy",
                 "icon": "content_copy",
-                "iconTheme": "material-symbols-rounded"
+                "iconTheme": "material-symbols-rounded",
+                "angle": 270
               }
             ]
+          },
+          {
+            "type": "submenu",
+            "data": {},
+            "name": "Submenu",
+            "icon": "blender",
+            "iconTheme": "simple-icons",
+            "children": []
+          },
+          {
+            "type": "submenu",
+            "data": {},
+            "name": "Submenu",
+            "icon": "krita",
+            "iconTheme": "simple-icons",
+            "children": []
           }
         ]
       },
