@@ -18,7 +18,7 @@
                 "type": "hotkey",
                 "data": {
                   "hotkey": "ControlLeft+KeyV",
-                  "delayed": false
+                  "delayed": true
                 },
                 "name": "Paste",
                 "icon": "content_paste",
@@ -29,7 +29,7 @@
                 "type": "hotkey",
                 "data": {
                   "hotkey": "ControlLeft+KeyX",
-                  "delayed": false
+                  "delayed": true
                 },
                 "name": "Cut",
                 "icon": "content_cut",
@@ -40,7 +40,7 @@
                 "type": "hotkey",
                 "data": {
                   "hotkey": "ControlLeft+KeyC",
-                  "delayed": false
+                  "delayed": true
                 },
                 "name": "Copy",
                 "icon": "content_copy",
