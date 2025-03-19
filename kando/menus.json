@@ -173,12 +173,13 @@
       },
       "shortcut": "",
       "shortcutID": "main",
-      "centered": false,
+      "centered": true,
       "anchored": true,
       "conditions": {
         "appName": "krita",
         "windowName": "Krita"
-      }
+      },
+      "warpMouse": false
     },
     {
       "root": {
@@ -202,6 +203,34 @@
       "shortcutID": "main",
       "centered": false,
       "anchored": false
+    },
+    {
+      "root": {
+        "type": "submenu",
+        "name": "Blender",
+        "icon": "blender",
+        "iconTheme": "simple-icons",
+        "children": [
+          {
+            "type": "hotkey",
+            "data": {
+              "hotkey": "KeyK",
+              "delayed": true
+            },
+            "name": "Simulate Hotkey",
+            "icon": "content_cut",
+            "iconTheme": "material-symbols-rounded"
+          }
+        ]
+      },
+      "shortcut": "",
+      "shortcutID": "main",
+      "centered": true,
+      "anchored": false,
+      "conditions": {
+        "appName": "blender"
+      },
+      "warpMouse": true
     }
   ],
   "templates": []

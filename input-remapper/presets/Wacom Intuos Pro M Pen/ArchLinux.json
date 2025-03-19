@@ -34,5 +34,24 @@
         "target_uinput": "mouse",
         "output_symbol": "BTN_LEFT",
         "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 258,
+                "origin_hash": "ee559ebdc14fe2b5d4fd54fa93fd5903"
+            },
+            {
+                "type": 3,
+                "code": 40,
+                "origin_hash": "ee559ebdc14fe2b5d4fd54fa93fd5903",
+                "analog_threshold": -1
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "KEY_K",
+        "name": "Button 2",
+        "mapping_type": "key_macro"
     }
 ]

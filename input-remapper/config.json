@@ -1,6 +1,7 @@
 {
     "version": "2.0.1",
     "autoload": {
-        "Wacom Intuos Pro M Pen": "ArchLinux"
+        "Wacom Intuos Pro M Pen": "Blender",
+        "Wacom Intuos Pro M Pad": "new preset"
     }
 }
