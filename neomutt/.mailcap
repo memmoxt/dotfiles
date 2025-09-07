@@ -1,0 +1,8 @@
+image/*; /usr/bin/sxiv %s
+text/html; qutebrowser %s; nametemplate=%s.html
+text/plain; kitty /usr/bin/nvim %s
+application/zip; /usr/bin/ark %s
+application/pdf; /usr/bin/zathura %s
+video/*; /usr/bin/mpv %s
+audio/*; /usr/bin/mpv %s
+
