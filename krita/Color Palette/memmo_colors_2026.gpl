@@ -1,6 +1,6 @@
 GIMP Palette
-Name: MemmoXT Palette
-Columns: 0
+Name: Memmo's color palette
+Columns: 20
 # Color list (RGB values, 0-255)
 
 # Slate
@@ -486,3 +486,4 @@ Columns: 0
 136 19 55 rose-900
 106 12 40 rose-925
 76 5 25 rose-950
+
