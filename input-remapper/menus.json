@@ -1,0 +1,225 @@
+{
+  "version": "2.2.0",
+  "menus": [
+    {
+      "root": {
+        "type": "submenu",
+        "name": "Kando",
+        "icon": "kando",
+        "iconTheme": "simple-icons",
+        "children": []
+      },
+      "shortcut": "",
+      "shortcutID": "main",
+      "centered": false,
+      "anchored": false,
+      "hoverMode": false,
+      "tags": []
+    },
+    {
+      "root": {
+        "type": "submenu",
+        "name": "Kando",
+        "icon": "blender",
+        "iconTheme": "simple-icons",
+        "children": [
+          {
+            "type": "hotkey",
+            "data": {
+              "hotkey": "ShiftLeft+KeyA",
+              "delayed": true
+            },
+            "name": "Simulate Hotkey",
+            "icon": "deployed_code",
+            "iconTheme": "material-symbols-rounded"
+          },
+          {
+            "type": "hotkey",
+            "data": {
+              "hotkey": "ControlLeft+KeyR",
+              "delayed": true
+            },
+            "name": "Ctrl + R",
+            "icon": "curtains_closed",
+            "iconTheme": "material-symbols-rounded"
+          },
+          {
+            "type": "submenu",
+            "data": {},
+            "name": "Axis",
+            "icon": "data:image/svg+xml;base64,PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KDTwhLS0gVXBsb2FkZWQgdG86IFNWRyBSZXBvLCB3d3cuc3ZncmVwby5jb20sIFRyYW5zZm9ybWVkIGJ5OiBTVkcgUmVwbyBNaXhlciBUb29scyAtLT4KPHN2ZyB3aWR0aD0iODAwcHgiIGhlaWdodD0iODAwcHgiIHZpZXdCb3g9IjAgMCA3NiA3NiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBiYXNlUHJvZmlsZT0iZnVsbCIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgNzYuMDAgNzYuMDAiIHhtbDpzcGFjZT0icHJlc2VydmUiIGZpbGw9IiNmZmZmZmYiIHN0cm9rZT0iI2ZmZmZmZiI+Cg08ZyBpZD0iU1ZHUmVwb19iZ0NhcnJpZXIiIHN0cm9rZS13aWR0aD0iMCIvPgoNPGcgaWQ9IlNWR1JlcG9fdHJhY2VyQ2FycmllciIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cg08ZyBpZD0iU1ZHUmVwb19pY29uQ2FycmllciI+IDxwYXRoIGZpbGw9IiNmZmZmZmYiIGZpbGwtb3BhY2l0eT0iMSIgc3Ryb2tlLXdpZHRoPSIwLjIiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGQ9Ik0gMzgsMzhMIDUxLjQxNiwzOEMgNTIuMTg3NiwzNi4yMzQxIDUzLjk0OTcsMzUgNTYsMzVDIDU4Ljc2MTQsMzUgNjEsMzcuMjM4NiA2MSw0MEMgNjEsNDIuNzYxNCA1OC43NjE0LDQ1IDU2LDQ1QyA1My45NDk3LDQ1IDUyLjE4NzYsNDMuNzY1OSA1MS40MTYsNDJMIDM2LjgyODQsNDJMIDI4LjY1NTYsNTAuMTcyOEMgMjguODc3OSw1MC43Mzg4IDI5LDUxLjM1NTEgMjksNTJDIDI5LDU0Ljc2MTQgMjYuNzYxNCw1NyAyNCw1N0MgMjEuMjM4Niw1NyAxOSw1NC43NjE0IDE5LDUyQyAxOSw0OS4yMzg2IDIxLjIzODYsNDcgMjQsNDdDIDI0LjY0NDksNDcgMjUuMjYxMiw0Ny4xMjIxIDI1LjgyNzIsNDcuMzQ0NEwgMzQsMzkuMTcxNkwgMzQsMjIuNDU4M0wgMjgsMjguMDgzM0wgMjgsMjIuNTgzM0wgMzYsMTUuMDgzM0wgNDQsMjIuNTgzM0wgNDQsMjguMDgzM0wgMzgsMjIuNDU4M0wgMzgsMzggWiAiLz4gPC9nPgoNPC9zdmc+",
+            "iconTheme": "base64",
+            "children": [
+              {
+                "type": "hotkey",
+                "data": {
+                  "hotkey": "KeyZ",
+                  "delayed": true
+                },
+                "name": "Z axis",
+                "icon": "data:image/svg+xml;base64,PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KDTwhLS0gVXBsb2FkZWQgdG86IFNWRyBSZXBvLCB3d3cuc3ZncmVwby5jb20sIFRyYW5zZm9ybWVkIGJ5OiBTVkcgUmVwbyBNaXhlciBUb29scyAtLT4KPHN2ZyB3aWR0aD0iODAwcHgiIGhlaWdodD0iODAwcHgiIHZpZXdCb3g9IjAgMCA3NiA3NiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBiYXNlUHJvZmlsZT0iZnVsbCIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgNzYuMDAgNzYuMDAiIHhtbDpzcGFjZT0icHJlc2VydmUiIGZpbGw9IiMwMDAwMDAiPgoNPGcgaWQ9IlNWR1JlcG9fYmdDYXJyaWVyIiBzdHJva2Utd2lkdGg9IjAiLz4KDTxnIGlkPSJTVkdSZXBvX3RyYWNlckNhcnJpZXIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgoNPGcgaWQ9IlNWR1JlcG9faWNvbkNhcnJpZXIiPiA8cGF0aCBmaWxsPSIjZmZmZmZmIiBmaWxsLW9wYWNpdHk9IjEiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGQ9Ik0gNTMuNTcxNCw1N0wgMjIuNjI4Niw1N0wgMjIuNjI4Niw1MS45ODdMIDQyLjM0OTYsMjYuMDU3MUwgMjQuMjU3MiwyNi4wNTcxTCAyNC4yNTcyLDE5TCA1My41NzE0LDE5TCA1My41NzE0LDIzLjg2MDJMIDM0LjI3NDYsNDkuOTQyOEwgNTMuNTcxNCw0OS45NDI4TCA1My41NzE0LDU3IFogIi8+IDwvZz4KDTwvc3ZnPg==",
+                "iconTheme": "base64"
+              },
+              {
+                "type": "hotkey",
+                "data": {
+                  "hotkey": "KeyY",
+                  "delayed": true
+                },
+                "name": "Y axis",
+                "icon": "data:image/svg+xml;base64,PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KDTwhLS0gVXBsb2FkZWQgdG86IFNWRyBSZXBvLCB3d3cuc3ZncmVwby5jb20sIFRyYW5zZm9ybWVkIGJ5OiBTVkcgUmVwbyBNaXhlciBUb29scyAtLT4KPHN2ZyB3aWR0aD0iODAwcHgiIGhlaWdodD0iODAwcHgiIHZpZXdCb3g9IjAgMCA3NiA3NiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBiYXNlUHJvZmlsZT0iZnVsbCIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgNzYuMDAgNzYuMDAiIHhtbDpzcGFjZT0icHJlc2VydmUiIGZpbGw9IiMwMDAwMDAiPgoNPGcgaWQ9IlNWR1JlcG9fYmdDYXJyaWVyIiBzdHJva2Utd2lkdGg9IjAiLz4KDTxnIGlkPSJTVkdSZXBvX3RyYWNlckNhcnJpZXIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgoNPGcgaWQ9IlNWR1JlcG9faWNvbkNhcnJpZXIiPiA8cGF0aCBmaWxsPSIjZmZmZmZmIiBmaWxsLW9wYWNpdHk9IjEiIHN0cm9rZS13aWR0aD0iMC4yIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBkPSJNIDU0LjY1NzIsMTlMIDQyLjE3MTQsNDMuNDg3OUwgNDIuMTcxNCw1N0wgMzMuNDg1Nyw1N0wgMzMuNDg1Nyw0My42NDA2TCAyMS41NDI5LDE5TCAzMS4zMjI4LDE5TCAzNy40MDQ1LDMzLjE3MzZDIDM3LjUwNjMsMzMuNDM5NCAzNy43OTQ3LDM0LjQ3NDIgMzguMjY5NywzNi4yNzgxTCAzOC4zNzk5LDM2LjI3ODFDIDM4LjYxMTgsMzUuMDA1OCAzOC44OTE3LDM0LjAwNzcgMzkuMjE5NywzMy4yODM5TCA0NS41ODk3LDE5TCA1NC42NTcyLDE5IFogIi8+IDwvZz4KDTwvc3ZnPg==",
+                "iconTheme": "base64"
+              },
+              {
+                "type": "hotkey",
+                "data": {
+                  "hotkey": "KeyX",
+                  "delayed": true
+                },
+                "name": "X axis",
+                "icon": "data:image/svg+xml;base64,PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KDTwhLS0gVXBsb2FkZWQgdG86IFNWRyBSZXBvLCB3d3cuc3ZncmVwby5jb20sIFRyYW5zZm9ybWVkIGJ5OiBTVkcgUmVwbyBNaXhlciBUb29scyAtLT4KPHN2ZyB3aWR0aD0iODAwcHgiIGhlaWdodD0iODAwcHgiIHZpZXdCb3g9IjAgMCA3NiA3NiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBiYXNlUHJvZmlsZT0iZnVsbCIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgNzYuMDAgNzYuMDAiIHhtbDpzcGFjZT0icHJlc2VydmUiIGZpbGw9IiMwMDAwMDAiPgoNPGcgaWQ9IlNWR1JlcG9fYmdDYXJyaWVyIiBzdHJva2Utd2lkdGg9IjAiLz4KDTxnIGlkPSJTVkdSZXBvX3RyYWNlckNhcnJpZXIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgoNPGcgaWQ9IlNWR1JlcG9faWNvbkNhcnJpZXIiPiA8cGF0aCBmaWxsPSIjZmZmZmZmIiBmaWxsLW9wYWNpdHk9IjEiIHN0cm9rZS13aWR0aD0iMC4yIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBkPSJNIDU2LjAxNDMsNTdMIDQ1LjY4Myw1N0wgMzkuMDI0Niw0NC42MjQ1QyAzOC43NzU4LDQ0LjE2NjUgMzguNTE1Niw0My4zMTgzIDM4LjI0NDIsNDIuMDc5OUwgMzguMTMzOSw0Mi4wNzk5QyAzOC4wMDk1LDQyLjY2MjMgMzcuNzEyNyw0My41NDczIDM3LjI0MzMsNDQuNzM0OEwgMzAuNTU5NCw1N0wgMjAuMTg1Nyw1N0wgMzIuNTAxOCwzOEwgMjEuMjcxNCwxOUwgMzEuODQ4NywxOUwgMzcuMzYyMSwzMC4zOTE1QyAzNy43OTE4LDMxLjI5NjMgMzguMTc2MywzMi4zNjUgMzguNTE1NiwzMy41OTc3TCAzOC42MjU5LDMzLjU5NzdDIDM4Ljg0MDgsMzIuODU3IDM5LjIzOTQsMzEuNzU0MyAzOS44MjE5LDMwLjI4OTdMIDQ1Ljg5NTEsMTlMIDU1LjQ3MTQsMTlMIDQ0LjA5NjksMzcuODM4OEwgNTYuMDE0Myw1NyBaICIvPiA8L2c+Cg08L3N2Zz4=",
+                "iconTheme": "base64"
+              },
+              {
+                "type": "hotkey",
+                "data": {
+                  "hotkey": "",
+                  "delayed": true
+                },
+                "name": "Simulate Hotkey",
+                "icon": "hotkey-item.svg",
+                "iconTheme": "kando"
+              }
+            ]
+          },
+          {
+            "type": "hotkey",
+            "data": {
+              "hotkey": "ControlLeft+KeyA",
+              "delayed": true
+            },
+            "name": "Ctrl+A",
+            "icon": "text_format",
+            "iconTheme": "material-symbols-rounded"
+          }
+        ]
+      },
+      "shortcut": "",
+      "shortcutID": "blender",
+      "centered": false,
+      "anchored": false,
+      "hoverMode": false,
+      "conditions": {
+        "appName": "blender"
+      },
+      "tags": []
+    },
+    {
+      "root": {
+        "type": "submenu",
+        "name": "Kando",
+        "icon": "krita",
+        "iconTheme": "simple-icons",
+        "children": [
+          {
+            "type": "hotkey",
+            "data": {
+              "hotkey": "KeyM",
+              "delayed": true
+            },
+            "name": "Mirror",
+            "icon": "align_justify_center",
+            "iconTheme": "material-symbols-rounded",
+            "angle": 180
+          },
+          {
+            "type": "submenu",
+            "data": {},
+            "name": "Submenu",
+            "icon": "ink_selection",
+            "iconTheme": "material-symbols-rounded",
+            "children": [
+              {
+                "type": "hotkey",
+                "data": {
+                  "hotkey": "ControlLeft+KeyV",
+                  "delayed": true
+                },
+                "name": "Simulate Hotkey",
+                "icon": "content_paste",
+                "iconTheme": "material-symbols-rounded",
+                "angle": 0
+              },
+              {
+                "type": "hotkey",
+                "data": {
+                  "hotkey": "ControlLeft+KeyC",
+                  "delayed": true
+                },
+                "name": "Simulate Hotkey",
+                "icon": "content_copy",
+                "iconTheme": "material-symbols-rounded"
+              },
+              {
+                "type": "hotkey",
+                "data": {
+                  "hotkey": "ControlLeft+KeyX",
+                  "delayed": true
+                },
+                "name": "Simulate Hotkey",
+                "icon": "content_cut",
+                "iconTheme": "material-symbols-rounded"
+              },
+              {
+                "type": "hotkey",
+                "data": {
+                  "hotkey": "ControlLeft+Digit1",
+                  "delayed": true
+                },
+                "name": "Simulate Hotkey",
+                "icon": "lasso_select",
+                "iconTheme": "material-symbols-rounded",
+                "angle": 270
+              }
+            ],
+            "angle": 270
+          },
+          {
+            "type": "hotkey",
+            "data": {
+              "hotkey": "Tab",
+              "delayed": true
+            },
+            "name": "Simulate Hotkey",
+            "icon": "tab",
+            "iconTheme": "material-symbols-rounded",
+            "angle": 360
+          }
+        ]
+      },
+      "shortcut": "",
+      "shortcutID": "krita",
+      "centered": false,
+      "anchored": false,
+      "hoverMode": true,
+      "conditions": {
+        "appName": "krita"
+      },
+      "tags": []
+    }
+  ],
+  "collections": [
+    {
+      "name": "Memmo",
+      "icon": "sell",
+      "iconTheme": "material-symbols-rounded",
+      "tags": []
+    },
+    {
+      "name": "Favorites",
+      "icon": "favorite",
+      "iconTheme": "material-symbols-rounded",
+      "tags": []
+    }
+  ]
+}
