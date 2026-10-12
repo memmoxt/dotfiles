@@ -3,6 +3,11 @@ alias l='eza -lh --icons=auto' #long list
 export EDITOR="nvim"
 export VISUAL="nvim"
 
+alias veadotube='/usr/local/bin/veadotube/veadotube-mini'
+alias veado='/usr/local/bin/veadotube-labs-veadotube-linux-x64/veadotube'
+
+
+
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -126,3 +131,5 @@ export PATH="$HOME/.local/share/npm-global/bin:$PATH"
 
 # OpenClaw Completion
 [ -f "/home/memmoxt/.openclaw/completions/openclaw.zsh" ] && source "/home/memmoxt/.openclaw/completions/openclaw.zsh"
+
+

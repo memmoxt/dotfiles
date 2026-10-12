@@ -1,4 +1,4 @@
--- Memmo's custom config
+-- Memmo's custom config 2026
 
 -- ASCII art done with:
 -- https://patorjk.com/software/taag/#p=display&f=Big&t=Monitors&x=none&v=4&h=4&w=80&we=false
