@@ -1,4 +1,3 @@
 [Shortcuts]
-file_export_file=F4
-save_incremental_backup=none
-toggle_layer_visibility=Shift+H
+KisToolSelectOutline=Shift+0
+save_node_as_image=Shift+F4
